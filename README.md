@@ -130,29 +130,7 @@ Contribuições são bem-vindas! Para contribuir:
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## 👨‍💻 Autor
-
-**Seu Nome**
-- GitHub: [@seu-usuario](https://github.com/seu-usuario)
-- LinkedIn: [Seu LinkedIn](https://linkedin.com/in/seu-perfil)
-
-## 🙏 Agradecimentos
-
-- Inspirado em quizzes educativos online
-- Comunidade de desenvolvedores por feedback e sugestões
-- Recursos de design e UX da web
-
----
-
 ⭐ **Se este projeto foi útil para você, considere dar uma estrela no repositório!**
 
-## 📞 Contato
-
-Para dúvidas, sugestões ou colaborações, entre em contato:
-
-- 📧 Email: seu.email@exemplo.com
-- 🐛 Issues: [GitHub Issues](https://github.com/seu-usuario/Quiz_JV/issues)
-
----
 
 **Desenvolvido com ❤️ para a comunidade de programadores**
