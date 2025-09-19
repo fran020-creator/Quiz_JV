@@ -92,7 +92,7 @@ body{
     color: #28a745;
 }
 
-.answer-btn.incorrect{
+.answer-btn.wrong{
     background-color: #ffe6e6;
     border-color: #f5a3a3;
     color: #dc3545;
@@ -141,14 +141,35 @@ button{
     background-color: #e86a33;
     color: #fff;
     border: none;
-    padding: 1rem 2rem;
+    padding: 15px 30px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 1rem;
     transition: background-color 0.3s ease;
-    padding: 15px 30px;
 }
 
 button:hover{
     background-color: #d45b28;
+}
+
+/* rfesponsive design */
+@media (max-width: 500px){
+
+    .screen{
+        padding: 1rem;
+    }
+    #start-screen h1{
+        font-size: 2rem;
+    }
+    #question-text{
+        font-size: 1.3rem;
+    }
+    .answer-btn{
+        padding: 12px;
+    }
+    button{
+        padding: 12px 25px;
+        font-size: 1rem;
+    }
+    
 }

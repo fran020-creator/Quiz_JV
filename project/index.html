@@ -7,58 +7,40 @@
     <title>Quiz Game</title>
 </head>
 <body>
-
     <div class="container">
-
         <div class="screen active" id="start-screen">
             <h1>Bem-vindo ao Quiz Game!</h1>
             <p>Teste seus conhecimentos e divirta-se!</p>
             <button id="start-btn">Iniciar Quiz</button>
-
         </div>
-
         <div class="screen" id="quiz-screen">
             <div class="quiz-header">
                 <h2 id="question-text">perguntas aki</h2>
                 <div class="quiz-info">
-                    <p>question <span id="current-question">1</span> of <span>5</span>
+                    <p>question <span id="current-question">1</span> of <span id="total-questions">5</span>
                     </p>
-
                     <p>
                         Score: <span id="score">0</span>
                     </p>
                 </div>
-
                 <div id="answer-container" class="answers-container">
                     <!-- answer buttons will be generated here -->
-
                 </div>
-
-                <div class="pogres-bar">
+                <div class="progress-bar">
                     <div id="progress" class="progress"></div>
                 </div>
-
             </div>
-
-
-
-
-            <div id="result-screen" class="screen active">
-
-                h1Parabéns!</h1>
+        </div>
+        <div id="result-screen" class="screen">
+            <h1>Parabéns!</h1>
                 <p>Você completou o quiz.</p>
                 <div class="result-info">
                     <p>sua pontuação <span id="final-score">0</span> out of <span id="max-score">5</span></p>
-
                     <div id="result-message"> Good job!</div>
                 </div>
                 <button id="restart-btn">recomeçar</button>
             </div>
-
-
-
         </div>
-
     <script src="script.js"></script>
 </body>
 </html>
